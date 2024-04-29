@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    background-color: #fff;
+}
+.body-container{
+    text-align: center;
+    font-size: 21px;
+    border: px solid black;
+    color: #c94b4b;
+    margin-top: 10px;
+}
+ .dashboard {
+    border: 0px solid red;
+    background-color: bisque;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px 0;
+ }
+ .dashboard .adash{
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+ }
+ .dashboard .adasha{
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+ }
+#header{
+    background:  aliceblue;
+    padding: 7px 0;
+}
+#header .container{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header .container .logo img{
+    width: 112px;
+    height: 57px;
+}
+#header .container .nav ul{
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#header .container .nav ul li a{
+    color: #f1a01d;
+    text-decoration: none;
+   
+}
+#header .container .nav ul li a:hover{
+    color: rgb(180, 18, 209);
+    transition:.8s ;
+}
+.footer{
+    text-align: center;
+    font-size: 24px;
+    background-color: coral;
+    margin-top: 10px;
+    height: 30px;
+}
+.footer p{
+    color: aliceblue;
+}
+.reg-form{
+   background-color: #fff;
+   border-radius: 15px;
+   box-shadow: 0 0 20px rgba(0, 0, 0,.2);
+   padding: 20px;
+   width: 500px;
+   margin: auto;
+   margin-top: 100px;
+
+}
+.reg-form h2{
+    color: #e5470b;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+.reg-form  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button[type="submit"] {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e47e18;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.addform{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0,.2);
+    padding: 20px;
+    width:300px;
+    margin: auto;
+    margin-top:100px;
+}
+.addform h2{
+    color: #e5470b;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+.addform label{
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="number"],
+input[type="file"],select{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.log-form
+{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0,.2);
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
+.log-form h2{
+    color: #e5470b;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+.tabletable{
+    width: 100%;
+}
+.tabletable .tbody{
+    text-align: center;
+}
+.tabletable thead{
+    text-align: center;
+}
+.head-container {
+   
+    text-align: center;
+}
+.head-container{
+    margin-top: 10px;
+}
+.head-container ul{
+ background-color: #c11313;
+}
+.head-container ul li{
+    display: contents;
+    font-size: 30px;
+    font-weight: bold;
+}
+.head-container ul li a{
+    color: #ddd;
+    text-decoration: none;
+}
+.head-container ul li .li-head{
+    padding-left: 50px;  
+}
+
+.main-div h2{
+    text-align: center;
+    margin-top: 20px;
+    color: #f1a01d;
+    font-size: 35px;
+}
+
+ 
+
+ 
